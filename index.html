@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💗Kunduz Personal Site</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <header>
+<nav>
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="openMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      
+    <ul>
+         <li>Меню</li>
+        <li><a href="./index.html">Главная</a></li>
+        <li><a href="./skils.html">Обо мне</a></li>
+        <li><a href="#">Мои работы</a></li>
+        <li><a href="./contact-me.html">Контакты</a></li>
+    </ul>
+  </nav>
+    </div>
+   
+  <div class="hero">
+    <div class="container hero__container">
+      <div class="hero__about">
+        <h1 class="hero__title">ВЕБ-РАЗРАБОТЧИК</h1>
+        
+        <h2 class="hero__subtitle">КУНДУЗ ИСАКОВА</h2>
+        <p class="hero__description">
+          Привет!<br>Занимаюсь разработкой веб-сайтов и веб-ориентированного программного обеспечения под заказ для разных сфер бизнеса.<br>
+          Пишите для сотрудничества.
+        </p>
+
+        <div class="banner-btn">
+          <a href="./index.html"><span></span>Подробнее</a>
+        </div>
+      </div>
+
+      <div class="hero__box">
+        <img class="hero__box-img" src="./img/image.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <div class="content text-center">
+ <h3>Навыки</h3>
+  <hr>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="services">
+
+        <div class="service-col">
+          <div class="service">
+            <img src="img/web-design.svg" alt="Web Design">
+            <h4>Немного о себе</h4>
+            <p>Я занимаюсь web-разработкой с нуля, под ключ.
+              </p> 
+            <a href="#">Узнать больше</a>
+          </div>
+        </div>
+
+        <div class="service-col">
+          <div class="service">
+            <img src="img/frontend.svg" alt="Frontend">
+            <h4>Знания и Умения</h4>
+            <p>JavaScript.Языки разметки: HTML(5), таблицы стилей CSS(3).
+          </p>
+            <a href="#">Узнать больше</a>
+          </div>
+        </div>
+
+        <div class="service-col">
+          <div class="service">
+            <img src="img/backend.svg" alt="Backend">
+            <h4>Самообразование</h4>
+            <p>Курсы в интернете, видеокурсы, книги, статьи...</p>
+            <a href="#">Узнать больше</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="herro">
+    <h3>Мои работы</h3>
+    <hr>
+  <div class="photos">
+    <img class="tel-photo" 
+    src="./img/photo_00.jpg" alt="" width="300">
+
+    <img class="tel-photo2"
+     src="./img/photo_01.jpg" alt=""  width="300">
+
+     <img class="tel-photo3"
+     src="./img/1.jpg" alt=""  width="300">
+
+     <img class="tel-photo4"
+     src="./img/photo_20.jpg" alt=""  width="300">
+    </div>
+    </section>
+
+  <footer>
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.instagram.com/kunduz_koshumbaevna_/">Instagram</a>
+<a class="footer-link" href="https://t.me/kunduz87">Telegram</a>
+<a class="footer-link" href="https://www.facebook.com/kunduz.isakova">Facebook</a>
+<p>&2022 Kunduz Isakova.</p>
+</div>
+</footer>
+
+<script>
+  function openMenu(){
+    document.getElementById("sidebar").classList.toggle('active');
+  }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: #44877521;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+  }
+
+  h1 {
+    margin: 30px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+  }
+  
+  label{
+      display: block;
+      text-align: center;
+  }
+  
+  input {
+      margin: 10px;
+  }
+
+  textarea {
+      margin: 10px;
+  }
